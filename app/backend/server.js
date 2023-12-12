@@ -10,6 +10,7 @@ const app = express()
 // app.get('/api/goals', (req, res) => {
 //     res.send('Get goals')
 // })
+
 // importer route / require possible car export défini dans le fichier goalRoute.js
 app.use('/api/goals', require('./routes/goalRoutes'))
 
