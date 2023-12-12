@@ -8,11 +8,13 @@ const {
     getGoals,
     addGoal,
     updateGoal,
-    deleteGoal
+    deleteGoal,
+    getGoalsById
 } = require('../controllers/goalController')
 
 // Ajouter les méthode récupérer pour chaque route. 
 router.get('/', getGoals)
+router.get('/:id', getGoalsById)
 router.post('/', addGoal)
 router.put('/:id', updateGoal)
 router.delete('/:id', deleteGoal)
