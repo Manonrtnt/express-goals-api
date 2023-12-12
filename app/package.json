@@ -1,0 +1,30 @@
+{
+  "name": "express-goals-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node --watch backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manonrtnt/express-goals-api.git"
+  },
+  "keywords": [
+    "goals"
+  ],
+  "author": "Manonrtnt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manonrtnt/express-goals-api/issues"
+  },
+  "homepage": "https://github.com/Manonrtnt/express-goals-api#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
