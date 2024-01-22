@@ -19,6 +19,7 @@ app.use(express.urlencoded({extended : true}))
 
 // importer route / require possible car export défini dans le fichier goalRoute.js
 app.use('/api/goals', require('./routes/goalRoutes'))
+app.use('/api/users', require('./routes/userRoutes'))
 
 // Lancement du serveur
 app.listen(port, () => {
